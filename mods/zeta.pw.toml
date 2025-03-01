@@ -1,6 +1,6 @@
 name = "Zeta"
 filename = "Zeta-1.0-24.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"
