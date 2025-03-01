@@ -1,6 +1,6 @@
 name = "FTB Quests (Forge)"
 filename = "ftb-quests-forge-2001.4.9.jar"
-side = "client"
+side = "both"
 
 [download]
 hash-format = "sha1"
