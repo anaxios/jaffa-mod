@@ -1551,12 +1551,12 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-quests-forge.pw.toml"
-hash = "f40a0b281164f4d406e19ff256d88e1a96f9c380f47699ad6cea30926699dc5a"
+hash = "12f197f6b876df668d6a5ec5e3a33bc48e43ebeff889b6a1fe53baeacabac7fe"
 metafile = true
 
 [[files]]
 file = "mods/ftb-quests-optimizer.pw.toml"
-hash = "50e0856cd8cbc96f971e055279cb724351a44934c7562269775f7aea857eebad"
+hash = "0485635ac227140b26350b7f0a5dad0518df900df780e526fe9cfad3342d5ded"
 metafile = true
 
 [[files]]
