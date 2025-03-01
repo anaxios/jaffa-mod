@@ -1,0 +1,7 @@
+{
+	chapter_groups: [
+		{ id: "615A6CFC7926D6C6", title: "Mechanical" }
+		{ id: "65C5124932539E9D", title: "Storage" }
+		{ id: "7C6168985184F48A", title: "Space" }
+	]
+}

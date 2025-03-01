@@ -1,0 +1,13 @@
+name = "Waystones and Create"
+filename = "waystoneandcreate.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0a3443d680d155dce9f6b52d0a52151a23a5f349"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5696302
+project-id = 1097714

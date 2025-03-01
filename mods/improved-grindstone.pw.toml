@@ -1,0 +1,13 @@
+name = "Improved Grindstone [Forge]"
+filename = "grindenc-forge-1.20.x-v2.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "04648f823117213cbbef23ee463fa6997580a89f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5708792
+project-id = 968422

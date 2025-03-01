@@ -1,0 +1,12 @@
+name = "Jaffa Factory 2 (Replica)"
+version = "The Factory Must Grow"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "576f66301f97bd65594f84dc9200a751d21590c14b51eeb49aa8f06f6ab52b14"
+
+[versions]
+forge = "47.3.0"
+minecraft = "1.20.1"
