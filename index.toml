@@ -1136,12 +1136,12 @@ metafile = true
 
 [[files]]
 file = "mods/ad-astra-giselle-addon.pw.toml"
-hash = "eb0dbe5541337ad26edf1c5b09f968fd7a46e92e41df32ba4163faace85378d3"
+hash = "2aa8ec6a3cab2c9d7cbc728bbde3364c4f36cc8c71b7527cd683edfb59cb6f5a"
 metafile = true
 
 [[files]]
 file = "mods/ad-astra.pw.toml"
-hash = "784ead3481c42a6f16617ec12ea211b31d60b1cd881f2c865669bba621142861"
+hash = "bfee68aa4fe03e5240ca57da075319f4aadb6a8099bc96965a3a9fd6bb816f29"
 metafile = true
 
 [[files]]
@@ -1186,7 +1186,7 @@ metafile = true
 
 [[files]]
 file = "mods/badoptimizations.pw.toml"
-hash = "8c89f03cdcd1f6e82adb4c5643fb9705eec8a0e1d2cf88895cf3cc02229efe28"
+hash = "010e3cbd9a4e0fd0632c20ca5a7c500c80c501fb6633470bbc051d97c2f8ab7b"
 metafile = true
 
 [[files]]
