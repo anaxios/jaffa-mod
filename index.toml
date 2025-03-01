@@ -1460,11 +1460,6 @@ hash = "3f88ff2db665fcaed3e12b41f4956956740e08badab26823ac6d5b20ce96ee15"
 metafile = true
 
 [[files]]
-file = "mods/essential-mod.pw.toml"
-hash = "bb7d344718b8a4aec6520c6495803fcf72e0e42755947d730d436b9d38060116"
-metafile = true
-
-[[files]]
 file = "mods/euphoria-patches.pw.toml"
 hash = "5d20503f75ffd390fbd095e694b555ceecce83c6d98d0bf881556e4644501600"
 metafile = true
@@ -1777,6 +1772,11 @@ metafile = true
 [[files]]
 file = "mods/ribbits.pw.toml"
 hash = "528bbe2b245807347801b56b913684d245ec92fd89dd281595fe2250be7fa618"
+metafile = true
+
+[[files]]
+file = "mods/rubidium.pw.toml"
+hash = "a1c202690fef8c74cc7be79c23172be3e6db1993f55efae07cc8c56dca71c639"
 metafile = true
 
 [[files]]
