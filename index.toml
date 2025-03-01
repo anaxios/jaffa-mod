@@ -1775,11 +1775,6 @@ hash = "528bbe2b245807347801b56b913684d245ec92fd89dd281595fe2250be7fa618"
 metafile = true
 
 [[files]]
-file = "mods/rubidium.pw.toml"
-hash = "a1c202690fef8c74cc7be79c23172be3e6db1993f55efae07cc8c56dca71c639"
-metafile = true
-
-[[files]]
 file = "mods/searchables.pw.toml"
 hash = "2cb8dd9a3944a6430b49916a4fe1b6cf0bd7efd907054f8e679a02717149404f"
 metafile = true
