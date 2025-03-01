@@ -1130,6 +1130,11 @@ file = "config/zeta-common.toml"
 hash = "684816927033626b990f8e277a43c0e24f6ef650cb38f9fee935f974fffd7392"
 
 [[files]]
+file = "mods/3dskinlayers.pw.toml"
+hash = "e648a83707d4ddfedd27a6459c32853e4565f19eaa388246484857c053444930"
+metafile = true
+
+[[files]]
 file = "mods/achievements-optimizer.pw.toml"
 hash = "2b55b29e563c7bdd3879e67e70816a48640071ba7927bb8294dcfaff94738677"
 metafile = true
@@ -1451,7 +1456,7 @@ metafile = true
 
 [[files]]
 file = "mods/entityculling.pw.toml"
-hash = "db24e053442fe37bee661829152d3e88fe4921683de4a2eca63a4ddc6605bb55"
+hash = "3f88ff2db665fcaed3e12b41f4956956740e08badab26823ac6d5b20ce96ee15"
 metafile = true
 
 [[files]]
@@ -1782,11 +1787,6 @@ metafile = true
 [[files]]
 file = "mods/selene.pw.toml"
 hash = "30b94b72dafc04ff185d1b63034f4c50fd1ddb63f6a7486fa5860b801fe82d00"
-metafile = true
-
-[[files]]
-file = "mods/skin-layers-3d.pw.toml"
-hash = "4dedbf3252f1f869115df74c8e4b1b434483736db6ad6e9dcbef2868be3ad7dc"
 metafile = true
 
 [[files]]
