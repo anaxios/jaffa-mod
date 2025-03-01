@@ -1,6 +1,6 @@
 # Exclude exported CurseForge zip files
 
-*.zip
+# *.zip
 
 
 
