@@ -1,6 +1,6 @@
 name = "Xaero's Minimap"
 filename = "Xaeros_Minimap_24.5.0_Forge_1.20.jar"
-side = "client"
+side = "both"
 
 [download]
 hash-format = "sha1"
