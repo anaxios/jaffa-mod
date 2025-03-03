@@ -1130,6 +1130,14 @@ file = "config/zeta-common.toml"
 hash = "684816927033626b990f8e277a43c0e24f6ef650cb38f9fee935f974fffd7392"
 
 [[files]]
+file = "index.html"
+hash = "96961061693ac98cf9f7970fcd671fa23a9041d769e90d6e49406455b66edcf1"
+
+[[files]]
+file = "index.md"
+hash = "da36ab5343945365774bc6450cae17d14e3c82fa63af3cad43aee8fb9f800e4b"
+
+[[files]]
 file = "mods/3dskinlayers.pw.toml"
 hash = "e648a83707d4ddfedd27a6459c32853e4565f19eaa388246484857c053444930"
 metafile = true
@@ -1825,6 +1833,11 @@ hash = "c7303b109577a683aef185c43912e4e9194397ddd40c562880468937136af0af"
 metafile = true
 
 [[files]]
+file = "mods/spark.pw.toml"
+hash = "0be4976227df8e261fd362889bf8e85b93e224d1b1c3cd2a11b73a9de3b64083"
+metafile = true
+
+[[files]]
 file = "mods/storage-drawers.pw.toml"
 hash = "eb7fb878f669cc17a22d19902fe96cdcfe541a9cf7d03eb7244fc11e13713b61"
 metafile = true
@@ -1960,3 +1973,11 @@ hash = "33203e7ebd7dd4d139598b33c604520d8357e19943b0ea52c1ff921d94c6f578"
 file = "shaderpacks/complementary-unbound.pw.toml"
 hash = "fd18eb54847fd18feba9db1e9960c741cdaa6083c984773f8f79ae22182fad76"
 metafile = true
+
+[[files]]
+file = "styles.css"
+hash = "10e4def7f943e0ff5da41107d27127def56d261426672f9bed044f46d9141a0f"
+
+[[files]]
+file = "test.html"
+hash = "64ff0d9f76c9f748c3dad20e21b651b2ebebed0c4162d97671a7bfbee91cb4a6"
