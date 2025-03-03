@@ -1977,7 +1977,3 @@ metafile = true
 [[files]]
 file = "styles.css"
 hash = "10e4def7f943e0ff5da41107d27127def56d261426672f9bed044f46d9141a0f"
-
-[[files]]
-file = "test.html"
-hash = "64ff0d9f76c9f748c3dad20e21b651b2ebebed0c4162d97671a7bfbee91cb4a6"
