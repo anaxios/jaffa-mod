@@ -1678,6 +1678,11 @@ hash = "f14ad088fde80c41bf43bad9436535944b1f2cb66bb4b9326480d2d3afa1c07a"
 metafile = true
 
 [[files]]
+file = "mods/luckperms.pw.toml"
+hash = "f8b4210300a8f2ce76a2329de37f2e671ac5dfeca17018528cadb333b019a814"
+metafile = true
+
+[[files]]
 file = "mods/macaws-lights-and-lamps.pw.toml"
 hash = "69cee636ccc8f669dd9c157ef44b6072465fe4c35b82965046bcc4647d8b820e"
 metafile = true
