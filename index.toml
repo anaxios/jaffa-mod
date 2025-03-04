@@ -1134,10 +1134,6 @@ file = "index.html"
 hash = "96961061693ac98cf9f7970fcd671fa23a9041d769e90d6e49406455b66edcf1"
 
 [[files]]
-file = "index.md"
-hash = "da36ab5343945365774bc6450cae17d14e3c82fa63af3cad43aee8fb9f800e4b"
-
-[[files]]
 file = "mods/3dskinlayers.pw.toml"
 hash = "e648a83707d4ddfedd27a6459c32853e4565f19eaa388246484857c053444930"
 metafile = true
@@ -1678,6 +1674,11 @@ hash = "f14ad088fde80c41bf43bad9436535944b1f2cb66bb4b9326480d2d3afa1c07a"
 metafile = true
 
 [[files]]
+file = "mods/macaws-lights-and-lamps.pw.toml"
+hash = "69cee636ccc8f669dd9c157ef44b6072465fe4c35b82965046bcc4647d8b820e"
+metafile = true
+
+[[files]]
 file = "mods/mekanism-generators.pw.toml"
 hash = "2b8bfaabf74a2c8fb5f2753e2585f8700ed2877d640e86505110d4360b0adc32"
 metafile = true
@@ -1964,6 +1965,10 @@ hash = "41cb720cf256a12ea247b2f38068b363aa5b1675470c4b5aa66850701a78bc4d"
 [[files]]
 file = "scripts/compacting_tuff.zs"
 hash = "1dc39f5e3969e64d18743e92c5989625cbe5f6b153c9474ca0168c8cee621c0c"
+
+[[files]]
+file = "scripts/cosmicsalmon.zs"
+hash = "b04dfee50f5660e92e8530806f43c887da3b9e13236845cc85ce0fb0aa4cfca9"
 
 [[files]]
 file = "shaderpacks/ComplementaryReimagined_r5.2.2.zip.txt"
