@@ -1193,6 +1193,11 @@ hash = "9638d8a308563842fd989970919a51f37ed1bcc82372bff47fc5a5c2e6de738e"
 metafile = true
 
 [[files]]
+file = "mods/auto-restart.pw.toml"
+hash = "03ab069b4afc622d70aef5ea9ee301483a91c550b20fc17ee82624ce8a30a271"
+metafile = true
+
+[[files]]
 file = "mods/badoptimizations.pw.toml"
 hash = "010e3cbd9a4e0fd0632c20ca5a7c500c80c501fb6633470bbc051d97c2f8ab7b"
 metafile = true
