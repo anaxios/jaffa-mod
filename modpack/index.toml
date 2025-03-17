@@ -1738,6 +1738,11 @@ hash = "7fe39c6ca31974b4e57e4b08a174beb959933767623c70893064a282ae29a859"
 metafile = true
 
 [[files]]
+file = "mods/open-loader.pw.toml"
+hash = "4e721a3949621080440a950b4aba930b91735455238b1ea4f01e25dba3e59c23"
+metafile = true
+
+[[files]]
 file = "mods/ore-harvester.pw.toml"
 hash = "36940c04cf3f98987ecd70cf582f018ab27ee6b023ad957c4f966a6024d4ecb3"
 metafile = true
