@@ -945,6 +945,10 @@ file = "config/okzoomer-client.toml"
 hash = "d0b7763e135cbba21d71c339253562b04460e4b42f599aa4a05f33cd06c9169d"
 
 [[files]]
+file = "config/openloader/packs/resources/easter_egg-1.20.1.zip"
+hash = "514dc933ea0002c3d42b21d09f345a696c793371475140bbd163792638303d9c"
+
+[[files]]
 file = "config/patchouli-client.toml"
 hash = "d289f4c7540e3e24bcf6bbf3f5a2aaaf87ccf58027d2213e40497fc627422068"
 
