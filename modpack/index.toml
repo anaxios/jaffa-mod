@@ -946,7 +946,7 @@ hash = "d0b7763e135cbba21d71c339253562b04460e4b42f599aa4a05f33cd06c9169d"
 
 [[files]]
 file = "config/openloader/resources/easter_egg-1.20.1.zip"
-hash = "514dc933ea0002c3d42b21d09f345a696c793371475140bbd163792638303d9c"
+hash = "86f1fb60ce0d486fdcfe70e0ea62126b30e009f36355d80ba89a546a9e8109ad"
 
 [[files]]
 file = "config/patchouli-client.toml"
