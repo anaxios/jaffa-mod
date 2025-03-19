@@ -1437,6 +1437,11 @@ hash = "02e3f47ff5a2fa074996387e14c81718e5c4df16dbe75ba1e1021157352f7815"
 metafile = true
 
 [[files]]
+file = "mods/dynamic-view.pw.toml"
+hash = "9503bfd7d59bb3f50232a6c5ea90e5790e178cc96b2463eb3e9775f65d1ef4ea"
+metafile = true
+
+[[files]]
 file = "mods/dynamiclights-reforged.pw.toml"
 hash = "ac6063df22cfd65677177c0b37a7021ff4a3afdcd56ff8a886ff85997ebd1416"
 metafile = true
