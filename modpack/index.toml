@@ -1538,7 +1538,7 @@ metafile = true
 
 [[files]]
 file = "mods/fix-gpu-memory-leak.pw.toml"
-hash = "c4032dc8c4f85576b7d89f719aa56241fbcdede45d3fc8bad43c86e499d01a67"
+hash = "e60a8e1a8559394229fbd54e3e386709f10d3a693f0d470b3708da08736efaae"
 metafile = true
 
 [[files]]
