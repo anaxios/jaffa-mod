@@ -1377,6 +1377,11 @@ hash = "e856bebab5538c51551b2759ed92e839728714f14f89a399fe9aa6cad7249d4d"
 metafile = true
 
 [[files]]
+file = "mods/craterlib.pw.toml"
+hash = "14c6746c8bfa3c94dc8823a40dc647354b0d6faaaf1e45aa492552c8a8701a02"
+metafile = true
+
+[[files]]
 file = "mods/create-ad-astra-compatibility.pw.toml"
 hash = "b5cf8113a1e183014c447f667676d0f9aef078c22ec195d50c58df72b8f596dd"
 metafile = true
@@ -1839,6 +1844,11 @@ metafile = true
 [[files]]
 file = "mods/ribbits.pw.toml"
 hash = "528bbe2b245807347801b56b913684d245ec92fd89dd281595fe2250be7fa618"
+metafile = true
+
+[[files]]
+file = "mods/sdlink.pw.toml"
+hash = "e1b7229154471533e62bc9d71e74300b6f6eb290efeedeb9480cde01336388de"
 metafile = true
 
 [[files]]
