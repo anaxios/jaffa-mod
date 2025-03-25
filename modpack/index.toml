@@ -517,6 +517,90 @@ file = "config/betterfortresses/forge-1_20/itemframes.json"
 hash = "e49e9a22d47ef855cfc599da91371ebb442618be25807e83f65d170f7e9d4fa1"
 
 [[files]]
+file = "config/bluemap/core.conf"
+hash = "488589dea556ae4275aba7375ac57f95d61988698fb5366cc2b364d74d1ab825"
+
+[[files]]
+file = "config/bluemap/maps/world.conf"
+hash = "5abda0daec6d5c9bb84a7a6178c352bfebbc2537dd6e033bc2d472b240eae173"
+
+[[files]]
+file = "config/bluemap/maps/world_ad_astra_earth_orbit.conf"
+hash = "f4b0a571d72f3c1e3cdafeac08a1a551ba3ee0612cef23a707513202bd3045ad"
+
+[[files]]
+file = "config/bluemap/maps/world_ad_astra_glacio.conf"
+hash = "2efb45fb0e4f7395e9230a8578414e748b83d79710566bbca07068de4c4a64a9"
+
+[[files]]
+file = "config/bluemap/maps/world_ad_astra_glacio_orbit.conf"
+hash = "7a5cfa3a65488e04487ca3e14c8947499ba6403e126e4272148792ddf4b2781e"
+
+[[files]]
+file = "config/bluemap/maps/world_ad_astra_mars.conf"
+hash = "b864d4341d5ae1cebfe7e91c489fb88c7d00dc1dca94950e01904726633821d6"
+
+[[files]]
+file = "config/bluemap/maps/world_ad_astra_mars_orbit.conf"
+hash = "f5607b96e4ae3ee55920478b81943d0b4dc1e2bf3b4c9dbf8737f06596228384"
+
+[[files]]
+file = "config/bluemap/maps/world_ad_astra_mercury.conf"
+hash = "4fa80bc9e3a80703f42beccc79ad19871c8042f2901db28dd1b684da8e782a11"
+
+[[files]]
+file = "config/bluemap/maps/world_ad_astra_mercury_orbit.conf"
+hash = "f81a738edad21fd94bdc82e25aa5842fd444ef02d0530c9e588d55c2a1b560b2"
+
+[[files]]
+file = "config/bluemap/maps/world_ad_astra_moon.conf"
+hash = "42502143081783d3212eb377500cc3d6a4cd630625de33f21ff587699df892a2"
+
+[[files]]
+file = "config/bluemap/maps/world_ad_astra_moon_orbit.conf"
+hash = "f93297982c427aea3403d8dcb3468fa093defbaab24944bdd60544e4c7bf1f3a"
+
+[[files]]
+file = "config/bluemap/maps/world_ad_astra_venus.conf"
+hash = "50cc20c7d77489edb4f5d1e14dd2a18b201eb6ddf6162e735f0c753ab6b8ca2d"
+
+[[files]]
+file = "config/bluemap/maps/world_ad_astra_venus_orbit.conf"
+hash = "cdcf914f4c5bd94f1b707060098e6e8d0c97ed3149976cf2161c7395d4d1be3c"
+
+[[files]]
+file = "config/bluemap/maps/world_ae2_spatial_storage.conf"
+hash = "5b4d544ef4df6bab7694b3c2d6f2068c3ffd50cd21c43830908fd73f6011d347"
+
+[[files]]
+file = "config/bluemap/maps/world_the_end.conf"
+hash = "073ed08979efb33521d5fe8dc4b939d0b9dade220081d59fb5bb8a2680323788"
+
+[[files]]
+file = "config/bluemap/maps/world_the_nether.conf"
+hash = "897705ff44b710ea423b9ff5dfd9b507215218bd40ef87e7f59032ae3e71a8d1"
+
+[[files]]
+file = "config/bluemap/plugin.conf"
+hash = "f4f9fc6a3ec27abe824b1aef445183f4c988c212724fb850c17ab489353c7b51"
+
+[[files]]
+file = "config/bluemap/storages/file.conf"
+hash = "ce1f7419cb657755fcb3266817251951701119b95c8e34fb8fa0a1f6be8c7b17"
+
+[[files]]
+file = "config/bluemap/storages/sql.conf"
+hash = "dbf122b4932a67e8b602ebe24d3278616522c24d2e9481f6c31c9949e75ed9f6"
+
+[[files]]
+file = "config/bluemap/webapp.conf"
+hash = "eb7fbbf671c247286fd9d3c52a43142da7e65dfb53c08163e0742b2979f3ca24"
+
+[[files]]
+file = "config/bluemap/webserver.conf"
+hash = "420b13227864623ff9e5f200ebba4c1a10f05a4ca40539dbefdfc9e23cdf78f2"
+
+[[files]]
 file = "config/botania-client.toml"
 hash = "3e96d7f471846a8349c319e8ea876146e8216530b977f830c86b016b5a76ab89"
 
