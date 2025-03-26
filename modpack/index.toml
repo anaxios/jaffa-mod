@@ -1226,6 +1226,10 @@ hash = "e648a83707d4ddfedd27a6459c32853e4565f19eaa388246484857c053444930"
 metafile = true
 
 [[files]]
+file = "mods/EuphoriaPatcher-1.4.3-r5.3-forge.jar"
+hash = "81b8d0c4c0e76b64c2bc204ce5ee05ca15d199739044a5f8c52cc7b296563274"
+
+[[files]]
 file = "mods/achievements-optimizer.pw.toml"
 hash = "2b55b29e563c7bdd3879e67e70816a48640071ba7927bb8294dcfaff94738677"
 metafile = true
@@ -1583,11 +1587,6 @@ metafile = true
 [[files]]
 file = "mods/entityculling.pw.toml"
 hash = "3f88ff2db665fcaed3e12b41f4956956740e08badab26823ac6d5b20ce96ee15"
-metafile = true
-
-[[files]]
-file = "mods/euphoria-patches.pw.toml"
-hash = "5d20503f75ffd390fbd095e694b555ceecce83c6d98d0bf881556e4644501600"
 metafile = true
 
 [[files]]
