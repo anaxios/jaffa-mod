@@ -1,0 +1,427 @@
+/* Custom Properties */
+:root {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smooth: never;
+
+  /* --m: 1rem;
+  --l: calc(1rem * 1.618);
+  --xl: calc(1rem * 1.618 * 1.618);
+  --xxl: calc(1rem * 1.618 * 1.618 * 1.618);
+  --s: calc(1rem / 1.618);
+  --xs: calc(1rem / 1.618 / 1.618);
+  --xxs: calc(1rem / 1.618 / 1.618 / 1.618); */
+
+  --m: 1rem;
+  --l: calc(var(--m) * 1.618);
+  --xl: calc(var(--l) * 1.618);
+  --xxl: calc(var(--xl) * 1.618);
+  --s: calc(var(--m) * 0.618);
+  --xs: calc(var(--s) * 0.618);
+  --xxs: calc(var(--xs) * 0.618);
+
+  --gap: var(--m);
+
+  /* Colors */
+  --clr-darker: 0 0% 11%;
+  --clr-dark: 0 0% 12%;
+  --clr-light: 210 61% 48%;
+  --clr-compliment: 30 61% 48%;
+  /* --clr-light: 211, 36%, 54%; */
+  /* --clr-white: 0 0% 100%; */
+  --clr-white: 140 3% 78%;
+  --clr-link: 48 49% 48%;
+  --clr-link-visited: 48 40% 41%;
+  --clr-pink: 300 61% 48%;
+  --clr-green: 120 61% 48%;
+
+  /* Fonts Sizes */
+  /* --fs-900: 9.375rem;
+  --fs-800: 6.25rem;
+  --fs-700: 3.5rem;
+  --fs-600: 2rem;
+  --fs-500: 1.75rem;
+  --fs-400: 1.125rem;
+  --fs-300: 1rem;
+  --fs-200: 0.875rem; */
+
+  /* Font Families */
+  --ff-serif: "Noto Serif Display", serif;
+  --ff-sans-condition: "Barlow Condensed", sans-serif;
+  --ff-sans-normal: "Noto Znamenny Musical Notation", sans-serif;
+
+  --ff-serif-bellefair: "Cormorant", serif;
+}
+
+@font-face {
+  font-family: Minecrafter;
+  src: url("/assets/fonts/minecrafter-font/Minecrafter-MA3Dw.ttf");
+}
+
+@font-face {
+  font-family: Minecraft;
+  src: url("/assets/fonts/minecraft-font/MinecraftRegular-Bmg3.otf");
+}
+
+.ff-minecraft {
+  font-family: Minecraft;
+}
+
+.ff-minecrafter {
+  font-family: Minecrafter;
+}
+
+/* Reset
+
+/* Box Sizing */
+/* *,
+* ::before,
+* ::after {
+  box-sizing: border-box;
+} */
+
+/* Reset Margins */
+/* h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure,
+picture {
+  margin: 0;
+  padding: 0;
+}  */
+
+/* set up body */
+body {
+  /* font-family: var(--ff-sans-normal); */
+  font-size: var(--m);
+  color: hsl(var(--clr-dark));
+  background-color: hsl(var(--clr-dark));
+  /* line-height: var(--l); */
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Easier Images */
+/* img,
+picture {
+  max-width: 100%;
+  display: block;
+  object-fit: cover;
+} */
+
+/* Easier Form Elements */
+/* input,
+button,
+textarea,
+select {
+  font: inherit;
+} */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-align: center;
+}
+
+/* Utility Classes */
+.flex {
+  display: flex;
+  gap: var(--gap);
+}
+
+.grid {
+  display: grid;
+  gap: var(--gap);
+}
+
+/* .flow {
+  padding-inline: max(var(--m, 0));
+} */
+
+.flow > *:where(:not(:last-child)) {
+  /* --gap: var(--xxl); */
+  margin-bottom: var(--gap);
+  /* outline: 1px solid red; */
+}
+
+.h > h1 {
+  text-align: center;
+  padding-top: var(--xl);
+  /* font-family: var(--ff-serif-bellefair); */
+  font-size: var(--xxl);
+  /* line-height: var(--xl); */
+}
+
+.h > h2 {
+  text-align: center;
+  padding-top: var(--l);
+  /* font-family: var(--ff-serif-bellefair); */
+  font-size: var(--l);
+  /* line-height: var(--l); */
+}
+
+.h > h3 {
+  text-align: center;
+  /* font-family: var(--clr-compliment); */
+  font-size: var(--s);
+  /* line-height: var(--s); */
+}
+
+.link a {
+  color: hsl(var(--clr-compliment));
+  text-decoration: none;
+}
+
+.link a:visited {
+  color: hsl(var(--clr-compliment));
+}
+
+.link a:hover {
+  text-decoration: underline;
+}
+
+.flow > h1:where(:first-child) {
+  padding-top: var(--m);
+}
+
+.flow > *:where(:first-child) {
+  padding-top: var(--m);
+}
+
+nav h2 {
+  margin-bottom: var(--m);
+}
+
+nav a {
+  margin: var() var(--s) var(--s) var(--s);
+}
+
+/* Colors */
+.bg-darker {
+  background-color: hsl(var(--clr-darker));
+}
+
+.bg-dark {
+  background-color: hsl(var(--clr-dark));
+}
+.bg-accent {
+  background-color: hsl(var(--clr-light));
+}
+.bg-white {
+  background-color: hsl(var(--clr-white));
+}
+
+.text-dark {
+  color: hsl(var(--clr-dark));
+}
+.text-accent {
+  color: hsl(var(--clr-light));
+}
+.text-white {
+  color: hsl(var(--clr-white));
+}
+.text-compliment {
+  color: hsl(var(--clr-compliment));
+}
+.text-pink {
+  color: hsl(var(--clr-pink));
+}
+.text-green {
+  color: hsl(var(--clr-green));
+}
+
+/* Typography */
+.ff-serif {
+  font-family: var(--ff-serif);
+}
+.ff-sans-cond {
+  font-family: var(--ff-sans-cond);
+}
+.ff-sans-normal {
+  font-family: var(--ff-sans-normal);
+}
+
+.ff-serif-bellefair {
+  font-family: var(--ff-serif-bellefair);
+}
+
+.letter-spacing-1 {
+  letter-spacing: 4.75px;
+}
+.letter-spacing-2 {
+  letter-spacing: 2.7px;
+}
+.letter-spacing-3 {
+  letter-spacing: 2.35px;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.fs-xxl {
+  font-size: var(--xxl);
+  line-height: var(--xxl);
+}
+.fs-xl {
+  font-size: var(--xl);
+  line-height: var(--xl);
+}
+.fs-l {
+  font-size: var(--l);
+  line-height: var(--l);
+}
+.fs-m {
+  font-size: var(--m);
+  line-height: var(--l);
+}
+.fs-s {
+  font-size: var(--s);
+  line-height: var(--m);
+}
+
+/* @media screen and (min-width: 581px) and (max-width: 900px) and (-webkit-device-pixel-ratio: 3) {
+  #header {
+    --fs-800: var(--fs-700);
+  }
+} */
+
+/* @media screen and (max-width: 580px) and (-webkit-device-pixel-ratio: 2) {
+  #header {
+    --fs-700: var(--fs-600);
+  }
+  nav a {
+    margin: 0rem 0.1rem 0.5rem 0.1rem;
+  }
+  .container {
+    padding-inline: 0.2em;
+  }
+} */
+
+.border-gradient {
+  border: var(--xxs) solid;
+  padding: var(--m);
+  border-image-source: linear-gradient(
+    135deg,
+    rgba(197, 48, 197, 0.08867296918767509) 2%,
+    rgba(48, 122, 197, 0.0802696078431373) 39%,
+    rgba(197, 122, 48, 0.0718662464985994) 91%
+  );
+  border-image-slice: 1;
+}
+
+.txt-justify {
+  text-align: justify;
+}
+
+.txt-justify > p {
+  text-justify: inter-word;
+}
+
+.rainbow-text {
+  background-image: linear-gradient(
+    to left,
+    violet,
+    indigo,
+    blue,
+    green,
+    yellow,
+    orange,
+    red
+  );
+  background-size: 700% 700%;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  animation: gradient 15s ease infinite;
+}
+
+.gradient-text {
+  background-image: linear-gradient(
+    90deg,
+    rgba(197, 48, 197) 2%,
+    rgba(48, 122, 197) 39%,
+    rgba(197, 122, 48) 91%
+  );
+  background-size: 300% 300%;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  animation: gradient 15s ease infinite;
+}
+
+.gradient-bg {
+  background-image: linear-gradient(
+    135deg,
+    rgba(197, 48, 197, 0.08867296918767509) 2%,
+    rgba(48, 122, 197, 0.0802696078431373) 39%,
+    rgba(197, 122, 48, 0.0718662464985994) 91%
+  );
+  background-size: 120% 120%;
+  animation: gradient 60s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.glass {
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.37);
+  /* border-radius: 16px; */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.container {
+  width: 100%;
+  /* margin-inline: auto; */
+  align-items: center;
+  height: 55rem;
+  background: url(/assets/screenshots/2025-03-15_12.18.26.png) no-repeat center
+    center;
+  /* padding-inline: var(--m); */
+  justify-content: center;
+}
+
+.text-container {
+  width: min(95%, 90ch);
+  /* margin-inline: auto; */
+  padding: var(--xl);
+}
+
+ul {
+  list-style: none;
+}
+ul li:before {
+  content: "";
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  background-image: url("/assets/orange-minecraft.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: var(--m);
+
+  padding: 0 0 0 0;
+}
