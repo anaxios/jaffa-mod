@@ -6,26 +6,27 @@
     <!-- Include Handlebars from a CDN -->
     <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
     <script>
-      function loadTemplate(data) {
-        var template = Handlebars.compile(
-          document.querySelector("#template").innerHTML
-        );
-        var filled = template(data, {
-          noEscape: true,
-        });
-        document.querySelector("#output").innerHTML = filled;
-      }
-      const data = {
-        title: "Minecraft Server",
-        list: [{ name: "fart" }, { name: "poop" }],
-        footer: "cool site!",
-      };
-    </script>
+        function loadTemplate(data) {
+            var template = Handlebars.compile(
+                document.querySelector("#template").innerHTML
+            );
+            var filled = template(data, {
+                noEscape: true,
+            });
+            document.querySelector("#output").innerHTML = filled;
+        }
+        const data = {
+            title: "Minecraft Server",
+            list: [{ name: "fart" }, { name: "poop" }],
+            footer: "cool site!",
+        };
+        </script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
   <body>
+
     <div class="flex container bg-dark">
       <div class="text-container glass flow text-dark h link ff-minecraft">
         <h1 class="rainbow-text ff-minecrafter">Minecraft Server</h1>
@@ -81,5 +82,6 @@
         <p>You are now set up to play on our modded Minecraft server!</p>
       </div>
     </div>
+    <script src="./oneko.js"></script>
   </body>
 </html>
