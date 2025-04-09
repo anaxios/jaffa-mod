@@ -1,39 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <!-- Include Handlebars from a CDN -->
-    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
-    <script>
-        function loadTemplate(data) {
-            var template = Handlebars.compile(
-                document.querySelector("#template").innerHTML
-            );
-            var filled = template(data, {
-                noEscape: true,
-            });
-            document.querySelector("#output").innerHTML = filled;
-        }
-        const data = {
-            title: "Minecraft Server",
-            list: [{ name: "fart" }, { name: "poop" }],
-            footer: "cool site!",
-        };
-        </script>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <script src="js/background-random.js"></script>
+
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Document</title>
   </head>
-  <body>
+  <body onload="backgroundRandom()">
 
-    <div class="flex container bg-dark">
-      <div class="text-container glass flow text-dark h link ff-minecraft">
-        <h1 class="rainbow-text ff-minecrafter">Minecraft Server</h1>
-        <h2 id="installation">Installation</h2>
+    <div class="flex container bg-dark" onclick="backgroundRandom()">
+      <div class="text-container glass flow text-dark link ff-minecraft">
+        <h1 class="rainbow-text ff-minecrafter fs-xxl">Minecraft Server</h1>
+        <h2 class="" id="installation">Installation</h2>
         <ol>
           <li>
-            <strong>Download Prism Launcher</strong>
+            <h3>Download Prism Launcher</h3>
             <ul>
               <li>
                 Go to
@@ -46,14 +30,14 @@
             </ul>
           </li>
           <li>
-            <strong>Log In to Your Minecraft Account</strong>
+            <h3>Log In to Your Minecraft Account</h3>
             <ul>
               <li> Open Prism Launcher.</li>
               <li> Log in with your Minecraft account credentials.</li>
             </ul>
           </li>
           <li>
-            <strong>Create a New Instance</strong>
+            <h3>Create a New Instance</h3>
             <ul>
               <li>
                 In Prism Launcher, click on the &#8220;Instances&#8221; tab.
@@ -64,7 +48,7 @@
             </ul>
           </li>
           <li>
-            <strong>Choose Import</strong>
+            <h3>Choose Import</h3>
             <ul>
               <li>
                 In the instance creation window, select &#8220;Import&#8221; as

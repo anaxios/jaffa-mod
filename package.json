@@ -1,0 +1,13 @@
+{
+  "name": "daedalist_minecraft_server",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "hono": "^4.7.6"
+  }
+}

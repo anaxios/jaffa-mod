@@ -1,0 +1,21 @@
+services:
+  dev:
+    build:
+      context: .
+      target: development
+    ports:
+      - 3000:3000
+    develop:
+      watch:
+        - action: sync
+          path: ./modpack
+          target: /app/modpack
+        - action: sync
+          path: ./serve.tsx
+          target: /app/serve.tsx
+  prod:
+    build:
+      context: .
+      target: production
+    ports:
+      - 3000:3000
