@@ -1,4 +1,20 @@
 /* Custom Properties */
+@font-face {
+  font-family: Minecrafter;
+  src: url("/website/assets/fonts/minecrafter-font/Minecrafter-MA3Dw.ttf");
+}
+
+@font-face {
+  font-family: Minecraft;
+  src: url("/website/assets/fonts/minecraft-font/MinecraftRegular-Bmg3.otf");
+}
+
+@media (max-width: 450px) {
+  .fs-xxl {
+    font-size: var(--xl) !important;
+  }
+}
+
 :root {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -53,16 +69,6 @@
   --ff-serif-bellefair: "Cormorant", serif;
 }
 
-@font-face {
-  font-family: Minecrafter;
-  src: url("/assets/fonts/minecrafter-font/Minecrafter-MA3Dw.ttf");
-}
-
-@font-face {
-  font-family: Minecraft;
-  src: url("/assets/fonts/minecraft-font/MinecraftRegular-Bmg3.otf");
-}
-
 .ff-minecraft {
   font-family: Minecraft;
 }
@@ -106,6 +112,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  letter-spacing: 0.07rem;
 }
 
 /* Easier Images */
@@ -126,7 +133,6 @@ select {
 
 h1,
 h2,
-h3,
 h4,
 h5,
 h6 {
@@ -154,29 +160,6 @@ h6 {
   /* outline: 1px solid red; */
 }
 
-.h > h1 {
-  text-align: center;
-  padding-top: var(--xl);
-  /* font-family: var(--ff-serif-bellefair); */
-  font-size: var(--xxl);
-  /* line-height: var(--xl); */
-}
-
-.h > h2 {
-  text-align: center;
-  padding-top: var(--l);
-  /* font-family: var(--ff-serif-bellefair); */
-  font-size: var(--l);
-  /* line-height: var(--l); */
-}
-
-.h > h3 {
-  text-align: center;
-  /* font-family: var(--clr-compliment); */
-  font-size: var(--s);
-  /* line-height: var(--s); */
-}
-
 .link a {
   color: hsl(var(--clr-compliment));
   text-decoration: none;
@@ -196,14 +179,6 @@ h6 {
 
 .flow > *:where(:first-child) {
   padding-top: var(--m);
-}
-
-nav h2 {
-  margin-bottom: var(--m);
-}
-
-nav a {
-  margin: var() var(--s) var(--s) var(--s);
 }
 
 /* Colors */
@@ -271,23 +246,23 @@ nav a {
 
 .fs-xxl {
   font-size: var(--xxl);
-  line-height: var(--xxl);
+  /* line-height: var(--xxl); */
 }
 .fs-xl {
   font-size: var(--xl);
-  line-height: var(--xl);
+  /* line-height: var(--xl); */
 }
 .fs-l {
   font-size: var(--l);
-  line-height: var(--l);
+  /* line-height: var(--l); */
 }
 .fs-m {
   font-size: var(--m);
-  line-height: var(--l);
+  /* line-height: var(--l); */
 }
 .fs-s {
   font-size: var(--s);
-  line-height: var(--m);
+  /* line-height: var(--m); */
 }
 
 /* @media screen and (min-width: 581px) and (max-width: 900px) and (-webkit-device-pixel-ratio: 3) {
@@ -398,14 +373,16 @@ nav a {
   /* margin-inline: auto; */
   align-items: center;
   height: 55rem;
-  background: url(/assets/screenshots/2025-03-15_12.18.26.png) no-repeat center
-    center;
+  /* background: url(/assets/screenshots/2025-03-15_12.43.32.webp) no-repeat center
+    center; */
   /* padding-inline: var(--m); */
   justify-content: center;
+  /* -webkit-transition: background 0.2s ease-in-out;
+  transition: background 0.2s ease-in-out; */
 }
 
 .text-container {
-  width: min(95%, 90ch);
+  width: min(100%, 90ch);
   /* margin-inline: auto; */
   padding: var(--xl);
 }
@@ -418,10 +395,8 @@ ul li:before {
   display: inline-block;
   height: 20px;
   width: 20px;
-  background-image: url("/assets/orange-minecraft.png");
+  background-image: url("/website/assets/orange-minecraft.png");
   background-size: contain;
   background-repeat: no-repeat;
-  margin-left: var(--m);
-
-  padding: 0 0 0 0;
+  margin-left: var(--s);
 }

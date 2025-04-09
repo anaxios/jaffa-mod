@@ -9,3 +9,4 @@
 *.mrpack
 
 yog-test-server
+node_modules
