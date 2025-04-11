@@ -7,6 +7,8 @@ RUN apt install ffmpeg -y
 FROM ffmpeg AS build
 WORKDIR /app
 
+COPY db/ db/
+COPY drizzle/ drizzle/
 COPY package.json .
 COPY tsconfig.json .
 COPY drizzle.config.ts .
@@ -18,8 +20,7 @@ FROM build AS development
 
 WORKDIR /app
 
-COPY db/ db/
-COPY drizzle/ drizzle/
+
 COPY website/ website/
 COPY serve.tsx .
 
