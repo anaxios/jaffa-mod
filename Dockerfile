@@ -22,7 +22,6 @@ COPY db/ db/
 COPY drizzle/ drizzle/
 COPY website/ website/
 COPY serve.tsx .
-COPY .env .
 
 EXPOSE 3000
 
