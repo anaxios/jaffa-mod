@@ -2,12 +2,18 @@
   "name": "daedalist_minecraft_server",
   "private": true,
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "latest",
+    "drizzle-kit": "^0.30.6",
+    "tsx": "^4.19.3"
   },
   "peerDependencies": {
     "typescript": "^5"
   },
   "dependencies": {
+    "@ffmpeg/ffmpeg": "^0.12.15",
+    "@ffmpeg/util": "^0.12.2",
+    "@libsql/client": "^0.15.2",
+    "drizzle-orm": "^0.41.0",
     "hono": "^4.7.6"
   }
 }

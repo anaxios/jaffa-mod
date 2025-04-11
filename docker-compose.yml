@@ -8,8 +8,8 @@ services:
     develop:
       watch:
         - action: sync
-          path: ./modpack
-          target: /app/modpack
+          path: ./website
+          target: /app/website
         - action: sync
           path: ./serve.tsx
           target: /app/serve.tsx

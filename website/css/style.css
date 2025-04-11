@@ -1,40 +1,18 @@
 /* Custom Properties */
 @font-face {
   font-family: Minecrafter;
-  src: url("/website/assets/fonts/minecrafter-font/Minecrafter-MA3Dw.ttf");
+  src: url("/assets/fonts/minecrafter-font/Minecrafter-MA3Dw.ttf");
 }
 
 @font-face {
   font-family: Minecraft;
-  src: url("/website/assets/fonts/minecraft-font/MinecraftRegular-Bmg3.otf");
-}
-
-@media (max-width: 450px) {
-  .fs-xxl {
-    font-size: var(--xl) !important;
-  }
+  src: url("/assets/fonts/minecraft-font/MinecraftRegular-Bmg3.otf");
 }
 
 :root {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-smooth: never;
-
-  /* --m: 1rem;
-  --l: calc(1rem * 1.618);
-  --xl: calc(1rem * 1.618 * 1.618);
-  --xxl: calc(1rem * 1.618 * 1.618 * 1.618);
-  --s: calc(1rem / 1.618);
-  --xs: calc(1rem / 1.618 / 1.618);
-  --xxs: calc(1rem / 1.618 / 1.618 / 1.618); */
-
-  --m: 1rem;
-  --l: calc(var(--m) * 1.618);
-  --xl: calc(var(--l) * 1.618);
-  --xxl: calc(var(--xl) * 1.618);
-  --s: calc(var(--m) * 0.618);
-  --xs: calc(var(--s) * 0.618);
-  --xxs: calc(var(--xs) * 0.618);
 
   --gap: var(--m);
 
@@ -387,9 +365,18 @@ h6 {
   padding: var(--xl);
 }
 
-ul {
-  list-style: none;
+ul,
+ol {
+  list-style: "";
+  margin: 0;
+  padding: 0;
 }
+
+ol {
+  list-style-type: upper-roman;
+  margin: var(--xl);
+}
+
 ul li:before {
   content: "";
   display: inline-block;
@@ -398,5 +385,22 @@ ul li:before {
   background-image: url("/website/assets/orange-minecraft.png");
   background-size: contain;
   background-repeat: no-repeat;
-  margin-left: var(--s);
+  margin-left: var(--xxs);
+  padding-inline-start: 0;
+}
+
+@media (max-width: 680px) {
+  .fs-xxl {
+    font-size: var(--xl) !important;
+  }
+  .text-container {
+    /* width: min(100%, 90ch); */
+    /* margin-inline: auto; */
+    padding: var(--xxs);
+  }
+
+  ul li:before {
+    /* margin-left: var(--xxs) !important; */
+    padding-inline-start: 0;
+  }
 }
