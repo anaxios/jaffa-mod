@@ -10,3 +10,5 @@
 
 yog-test-server
 node_modules
+local.db
+.env
