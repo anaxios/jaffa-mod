@@ -23,7 +23,7 @@ function backgroundRandom() {
   ];
   const roll = Math.floor(Math.random() * images.length);
   const container = document.querySelector(".container");
-  container.style.backgroundImage = `url('/website/assets/screenshots/${images[roll]}')`;
+  container.style.backgroundImage = `url('/assets/screenshots/${images[roll]}')`;
   container.style.backgroundSize = "cover";
   container.style.backgroundRepeat = "no-repeat";
   container.style.backgroundPosition = "center";

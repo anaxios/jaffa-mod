@@ -10,7 +10,7 @@ CMD ["bun", "install"]
 
 FROM build AS development
 
-COPY modpack/ modpack/
+COPY website/ website/
 COPY serve.tsx .
 
 EXPOSE 3000
