@@ -1,12 +1,12 @@
 /* Custom Properties */
 @font-face {
   font-family: Minecrafter;
-  src: url("/website/assets/fonts/minecrafter-font/Minecrafter-MA3Dw.ttf");
+  src: url("/assets/fonts/minecrafter-font/Minecrafter-MA3Dw.ttf");
 }
 
 @font-face {
   font-family: Minecraft;
-  src: url("/website/assets/fonts/minecraft-font/MinecraftRegular-Bmg3.otf");
+  src: url("/assets/fonts/minecraft-font/MinecraftRegular-Bmg3.otf");
 }
 
 @media (max-width: 450px) {
@@ -395,7 +395,7 @@ ul li:before {
   display: inline-block;
   height: 20px;
   width: 20px;
-  background-image: url("/website/assets/orange-minecraft.png");
+  background-image: url("/assets/orange-minecraft.png");
   background-size: contain;
   background-repeat: no-repeat;
   margin-left: var(--s);

@@ -12,13 +12,13 @@ const app = new Hono();
 app.use(logger());
 // // app.use("/", serveStatic({ path: "./website/index.html" }));
 // app.get("/website/*", serveStatic({ path: "./website" }));
-app.use("*", serveStatic({ root: "./modpack" }));
+app.use("*", serveStatic({ root: "./website" }));
 
 app.get(
   "/favicon.ico",
-  serveStatic({ path: "./modpack/website/assets/orange-minecraft.png" })
+  serveStatic({ path: "./assets/orange-minecraft.png" })
 );
-app.get("/oneko.gif", serveStatic({ path: "./modpack/website/oneko.gif" }));
+app.get("/oneko.gif", serveStatic({ path: "./oneko.gif" }));
 // app.get("/", (c) => c.text("You can access: /static/hello.txt"));
 // // app.get("*", serveStatic({ path: "./dist/index.html" }));
 
@@ -123,9 +123,9 @@ app.use(
       return (
         <html lang="en">
           <head>
-            <link rel="stylesheet" href="/website/css/reset.css" />
-            <link rel="stylesheet" href="/website/css/style.css" />
-            <script src="/website/js/background-random.js"></script>
+            <link rel="stylesheet" href="/css/reset.css" />
+            <link rel="stylesheet" href="/css/style.css" />
+            <script src="/js/background-random.js"></script>
 
             <meta charset="UTF-8" />
             <meta
@@ -201,7 +201,7 @@ app.get("/", (c) => {
         </ol>
         <p>You are now set up to play on our modded Minecraft server!</p>
       </div>
-      <script src="/website/oneko.js"></script>
+      <script src="/oneko.js"></script>
     </div>
   );
 });
